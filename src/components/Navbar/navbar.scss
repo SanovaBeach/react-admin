@@ -1,0 +1,58 @@
+@import '../../styles/variables';
+
+.Navbar {
+  background-color: rgba($lightGray, .2);
+
+  &_menu {
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &_left {
+    width: 100%;
+  }
+
+  &_right {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+
+  }
+  &_listItem {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2rem;
+  }
+  &_list {
+    position: relative;
+    margin: 1.5rem;
+  }
+  &_listIcon {
+    font-size: 3.5rem !important;
+    color: white;
+  }
+  &_listDetail {
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    font-size: 1.4rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &_image {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+  }
+}
