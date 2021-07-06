@@ -1,0 +1,7 @@
+@import '../../styles/variables';
+
+.Sidebar {
+  flex: 1;
+  background-color: rgba($lightGray, .3);
+  height: calc(100vh - 6rem);
+}
